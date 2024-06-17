@@ -198,8 +198,16 @@ class GameBoard{
                 this.startNewGame();
                 player2.playerScore.textContent=`${player2.Name.value} score: ${player2.getScore()}`          
             }
+
+            
+            if(`${player2.Choices[0]}${player2.Choices[2]}${player2.Choices[3]}`===gameRule.WinningCondition[i].join("")){
+                player2.increaseScore()
+                this.startNewGame();
+                player2.playerScore.textContent=`${player2.Name.value} score: ${player2.getScore()}`          
+            }
  
         } 
+        console.log(player2.Choices)
       
 }
 
