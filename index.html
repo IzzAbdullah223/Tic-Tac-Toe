@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="headerContainer"> 
+      <img src="logo.png">
+      <h1>Tic - Tac - Toe</h1>
+    </div>
+
+    <div class="PlayerNamesContainer">
+
+        <div class="player1">
+          <label>Player 1 name </label>
+          <input type="text" class="P1Name">
+        </div>
+        <div class="player2">
+          <label>Player 2 name</label>
+          <input type="text" class="P2Name">
+        </div>
+    </div>
+
+    <div class="startBTNContainer"> 
+    <button class="startBTN">START</button>
+  </div>
+    
+
+    
+      <div class="gameInfo" style="display: none;">
+          <h2>Player Score</h2>
+          <div class="playerTurn">Player1 (X) must select a cell!</div>
+          <div class="P1Score">Player1 score: </div>
+          <div class="P2Score">Player2 score: </div>
+      </div>
+
+      <div class="boardContainer" style="display: none;">
+        <div class="Cell0 Cell" value="0"></div>
+        <div class="Cell1 Cell" value="1"></div>
+        <div class="Cell2 Cell" value="2"></div>
+        <div class="Cell3 Cell" value="3"></div>
+        <div class="Cell4 Cell" value="4"></div>
+        <div class="Cell5 Cell" value="5"></div>
+        <div class="Cell6 Cell" value="6"></div>
+        <div class="Cell7 Cell" value="7"></div>
+        <div class="Cell8 Cell" value="8"></div>
+      </div>
+  
+  </body>
+  <script src="index.js"></script>
+</html>

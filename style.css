@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    background-color: #262626;
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.headerContainer img{
+    width: 6%;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-decoration: underline; 
+}
+
+.PlayerNamesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 30vh;
+}
+
+.player1,.player2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.PlayerNamesContainer label{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.PlayerNamesContainer input{
+    font-size: 1.4rem;
+}
+ 
+.startBTNContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.startBTNContainer button{
+    font-size: 4rem;
+    padding: 0px 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.startBTNContainer button:hover{
+    background-color: #5e5e5e93;
+}
+ 
+ 
+
+.gameInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.gameInfo h2{
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+ 
+
+.boardContainer{
+    background-color: rgba(255, 255, 255, 0.849);
+    width: min-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.boardContainer>div{
+    width: 140px;
+    height: 140px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+
+
+
+ 
